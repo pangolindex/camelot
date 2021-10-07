@@ -1,4 +1,5 @@
 # Overview
+
 Pangolin Academy is a permissionless dApp that will allow DeFi projects to submit tasks for users to complete and be rewarded with tokens
 
 This project is heavily influenced by [Rabbit](https://app.rabbithole.gg/quests)
@@ -8,6 +9,7 @@ This is a community governed project and as such anyone can contribute to it and
 I will keep a running list of open tasks within the Issues list and update them there accordingly.
 
 # Functionality
+
 We will have the following major features:
 
 - Skills
