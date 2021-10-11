@@ -1,22 +1,13 @@
-// Variables
+// Dark Theme
+$theme-dark: #ff6b00;
+$theme-dark-bg: #2a2932;
+$theme-dark-gray: #696969;
+$theme-dark-white: #ffffff;
 
-// Default Theme
-$theme-1: #ff6b00;
-$theme-1-bg: #e5e5e5;
-$theme-1-light: #484750;
-$theme-1-light-bg: #ecf0f3;
-
-$white: #fff;
-$greylighter: #ecf0f3;
-$greylight: #d1d9e6;
-$grey: #4d5a80;
-$white-soft: rgba(#fff, 0.8);
-$black: #000;
-
-$theme: $theme-1;
-$theme-bg: $theme-1-bg;
-$theme-light: $theme-1-light;
-$theme-light-bg: $theme-1-light-bg;
+$theme: $theme-dark;
+$theme-bg: $theme-dark-bg;
+$theme-gray: $theme-dark-gray;
+$theme-white: $theme-dark-white;
 
 // Mixins
 @mixin bigPhoneAndUp() {

@@ -1,0 +1,23 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem 2.5rem;
+
+  .stats {
+    display: flex;
+    align-items: center;
+
+    .fill,
+    .nofill {
+      padding: 0.4rem 1.2rem;
+      background: var(--color-primary);
+      border: 1px solid var(--color-primary);
+      border-radius: 74px;
+      margin-left: 1rem;
+    }
+
+    .nofill {
+      background: var(--color-transparent);
+    }
+  }
+}
