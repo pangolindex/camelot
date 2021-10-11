@@ -13,6 +13,34 @@ body {
   line-height: 27px;
 
   // dark theme
-  background-color: #2a2932;
-  color: #ffffff;
+  background-color: var(--color-bg);
+  color: var(--color-text);
+}
+
+.theme-select {
+  .react-switch-bg {
+    border: 1px solid var(--color-primary);
+
+    div {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      span {
+        &.dark {
+          padding-left: 8px;
+        }
+        &.light {
+          padding-right: 8px;
+        }
+      }
+    }
+  }
+
+  .react-switch-handle div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 1px !important;
+  }
 }
