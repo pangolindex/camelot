@@ -3,6 +3,7 @@ export const PALLET = {
   dark: '#2A2932',
   dark2: '#3E3D46',
   gray: '#696969',
+  gray2: '#535353',
   white: '#FFFFFF',
   transparent: 'transparent',
 };
@@ -16,5 +17,6 @@ export default {
     '--color-transparent': PALLET.transparent,
 
     '--toggle-on': PALLET.dark2,
+    '--category-card-bg': PALLET.gray2,
   },
 };

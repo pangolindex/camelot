@@ -17,6 +17,11 @@ body {
   color: var(--color-text);
 }
 
+.wrapper {
+  padding: 0 2.5rem;
+}
+
+// switch toggle styles
 .theme-select {
   .react-switch-bg {
     border: 1px solid var(--color-primary);
