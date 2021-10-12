@@ -1,7 +1,7 @@
 import React from 'react';
-import Router from './Router';
-import Footer from './Layout/Footer';
-import Header from './Layout/Header';
+import Router from './screens/Router';
+import Footer from './components/Layout/Footer';
+import Header from './components/Layout/Header';
 import colors from 'styles/colors';
 
 const { main } = colors;

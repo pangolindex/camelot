@@ -1,14 +1,3 @@
-// Dark Theme
-$theme-dark: #ff6b00;
-$theme-dark-bg: #2a2932;
-$theme-dark-gray: #696969;
-$theme-dark-white: #ffffff;
-
-$theme: $theme-dark;
-$theme-bg: $theme-dark-bg;
-$theme-gray: $theme-dark-gray;
-$theme-white: $theme-dark-white;
-
 // Mixins
 @mixin bigPhoneAndUp() {
   @media screen and (min-width: 30em) {
