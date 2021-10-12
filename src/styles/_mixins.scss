@@ -1,0 +1,45 @@
+// Mixins
+@mixin bigPhoneAndUp() {
+  @media screen and (min-width: 30em) {
+    @content;
+  }
+}
+@mixin tabletAndUp {
+  @media screen and (min-width: 48em) {
+    @content;
+  }
+}
+@mixin wideDesktopAndUp() {
+  @media screen and (min-width: 70em) {
+    @content;
+  }
+}
+@mixin monitorAndUp() {
+  @media screen and (min-width: 95rem) {
+    @content;
+  }
+}
+@mixin tabletAndDown {
+  @media screen and (max-width: 767px) {
+    @content;
+  }
+}
+
+// Dark mode query mixin
+@mixin darkMode {
+  @media (prefers-color-scheme: dark) {
+    @content;
+
+    html.prefersDarkMode:not(.prefersLightMode) & {
+      @content;
+    }
+  }
+  html.prefersDarkMode & {
+    @content;
+  }
+}
+
+// rgbify colour
+@function rgbify($hex) {
+  @return #{red($hex) + ',' + green($hex) + ',' + blue($hex)};
+}
