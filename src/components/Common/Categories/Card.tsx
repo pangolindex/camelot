@@ -6,11 +6,17 @@ export interface CategoryCardProps {
   image: string;
   name: string;
   active: boolean;
+  onClick?: (e?: any) => void;
 }
 
-const CategoryCard: React.FC<CategoryCardProps> = ({ image, name, active }: CategoryCardProps): JSX.Element => {
+const CategoryCard: React.FC<CategoryCardProps> = ({
+  image,
+  name,
+  active,
+  ...props
+}: CategoryCardProps): JSX.Element => {
   return (
-    <div className={classnames(styles.card, { [styles.active]: active })}>
+    <div className={classnames(styles.card, { [styles.active]: active })} {...props}>
       <div className={styles.image}>
         <img src={image} alt={name} />
       </div>

@@ -6,7 +6,7 @@
   width: 544px;
   padding: 34px 27px;
   opacity: 0.2;
-
+  cursor: not-allowed;
   background-color: var(--category-card-bg);
 
   .image {
@@ -23,6 +23,7 @@
     background-color: var(--color-primary);
     background-image: url(../../../images/cate-card-bg.svg);
     opacity: 1;
+    cursor: pointer;
 
     .image {
       background-color: var(--color-text);
