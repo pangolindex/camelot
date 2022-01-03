@@ -2,6 +2,7 @@
 
 Pangolin will create a subnet which will provide both permissioned and permissionless Liquidity to the entire ecosystem of subnets. 
 
+Please see [Roadmap](./Roadmap.md) to understand how we'll deliver Camelot.
 # Key concepts
 
 ## Subnet - Camelot
@@ -116,23 +117,15 @@ So let's walk through what it will look like (Please note: these screenshots are
 
 Login with your wallet:
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a9a4b77d-5ba7-40d7-8092-a8634f231767/Untitled.png)
-
 Once logged in, the dApp will automatically create your DID:
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c79cfc4d-50c5-4ea4-a7f2-3691a12f1b06/Untitled.png)
-
 Here we can also update our Identity:
-
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e5020da8-7562-4eb8-9dbd-06f650031c41/Untitled.png)
 
 Our homepage will look the below, except it will only have menu options for:
 
 - Validators
 - Tokens
 - Protocols
-
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f89894dc-e980-4cef-ab03-0dbd1392a866/Untitled.png)
 
 **Validators**
 
